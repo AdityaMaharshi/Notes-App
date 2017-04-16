@@ -2355,8 +2355,8 @@ containing a value of this type.
         public static final int line3=0x7f0b0080;
         public static final int listMode=0x7f0b0012;
         public static final int list_item=0x7f0b0033;
-        public static final int list_note_content_preview=0x7f0b0085;
-        public static final int list_note_date=0x7f0b0084;
+        public static final int list_note_content_preview=0x7f0b0084;
+        public static final int list_note_date=0x7f0b0085;
         public static final int list_note_title=0x7f0b0083;
         public static final int loginButton=0x7f0b0060;
         public static final int main_listview=0x7f0b0067;
@@ -2531,7 +2531,9 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int app_name=0x7f060022;
         public static final int login=0x7f060023;
-        public static final int logoutNotes=0x7f060024;
+        public static final int logout=0x7f060024;
+        public static final int logoutNotes=0x7f060025;
+        public static final int save_note=0x7f060026;
         public static final int search_menu_title=0x7f060013;
         public static final int status_bar_notification_info_overflow=0x7f060014;
     }

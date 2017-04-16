@@ -17,6 +17,11 @@
         android:layout_alignParentEnd="true"
         android:hint="Title"
         android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:singleLine="true"/>
 
     <EditText
@@ -31,6 +36,11 @@
         android:layout_alignRight="@+id/note_et_title"
         android:layout_alignEnd="@+id/note_et_title"
         android:layout_alignParentBottom="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:hint="Enter Your Note"
         android:gravity="top"/>
 </RelativeLayout>

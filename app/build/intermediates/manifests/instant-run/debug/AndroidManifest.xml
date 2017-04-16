@@ -30,7 +30,6 @@
         <activity android:name="com.example.aditya.notesproject.MainActivity" />
         <activity android:name="com.example.aditya.notesproject.NotesActivity" />
         <activity android:name="com.example.aditya.notesproject.NoteTaker" />
-        <activity android:name="com.example.aditya.notesproject.NoteAdapter" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

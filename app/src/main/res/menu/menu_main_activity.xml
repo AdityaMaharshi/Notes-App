@@ -13,12 +13,11 @@
 
     <!-- SETTINGS -->
     <item
-        android:enabled="true"
         android:id="@+id/action_settings"
-        android:title="settings"
-        android:icon="@android:drawable/ic_menu_manage"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
         android:orderInCategory="10"
-        app:showAsAction="ifRoom"
-        />
+        android:title="@string/logout"
+        app:showAsAction="ifRoom" />
 
 </menu>

@@ -25,7 +25,7 @@ class NoteTaker extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notes);
+        setContentView(R.layout.activity_note);
 
         mEtTitle = (EditText) findViewById(R.id.note_et_title);
         mEtContent = (EditText) findViewById(R.id.note_et_content);
@@ -102,7 +102,7 @@ class NoteTaker extends AppCompatActivity {
                             Toast.makeText(NoteTaker.this, mLoadedNote.getTitle() + " is deleted"
                                     , Toast.LENGTH_SHORT).show();
                         } else {
-                            Toast.makeText(NoteTaker.this, "cannot delete the note '" + mLoadedNote.getTitle() + "'"
+                            Toast.makeText(NoteTaker.this, "Cannot delete the note '" + mLoadedNote.getTitle() + "'"
                                     , Toast.LENGTH_SHORT).show();
                         }
                         finish();
@@ -122,7 +122,7 @@ class NoteTaker extends AppCompatActivity {
             finish(); //just exit the activity and go back to MainActivity
         } else { //we want to remind user to decide about saving the changes or not, by showing a dialog
             AlertDialog.Builder dialogCancel = new AlertDialog.Builder(this)
-                    .setTitle("discard changes...")
+                    .setTitle("Discard changes...")
                     .setMessage("Are you sure you do not want to save changes to this note?")
                     .setPositiveButton("YES", new DialogInterface.OnClickListener() {
                         @Override
@@ -159,13 +159,13 @@ class NoteTaker extends AppCompatActivity {
 
         //see if user has entered anything :D lol
         if(title.isEmpty()) { //title
-            Toast.makeText(NoteTaker.this, "please enter a title!"
+            Toast.makeText(NoteTaker.this, "Please enter a title!"
                     , Toast.LENGTH_SHORT).show();
             return;
         }
 
         if(content.isEmpty()) { //content
-            Toast.makeText(NoteTaker.this, "please enter a content for your note!"
+            Toast.makeText(NoteTaker.this, "Please enter a content for your note!"
                     , Toast.LENGTH_SHORT).show();
             return;
         }
@@ -180,9 +180,9 @@ class NoteTaker extends AppCompatActivity {
         //finally save the note!
         if(Utilities.saveNote(this, new Note(mNoteCreationTime, title, content))) { //success!
             //tell user the note was saved!
-            Toast.makeText(this, "note has been saved", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Note has been saved", Toast.LENGTH_SHORT).show();
         } else { //failed to save the note! but this should not really happen :P :D :|
-            Toast.makeText(this, "can not save the note. make sure you have enough space " + "on your device", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Error: Not enough Storage" + "on your device", Toast.LENGTH_SHORT).show();
         }
 
         finish(); //exit the activity, should return us to MainActivity

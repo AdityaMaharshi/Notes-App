@@ -5,7 +5,7 @@
     <!-- SAVE NOTE -->
     <item
         android:enabled="true"
-        android:title="save note"
+        android:title="@string/save_note"
         android:id="@+id/action_save_note"
         android:icon="@android:drawable/ic_menu_save"
         android:orderInCategory="0"
@@ -14,13 +14,12 @@
 
     <!-- CANCEL THE NOTE -->
     <item
-        android:enabled="true"
         android:id="@+id/action_cancel"
-        android:title="cancel"
-        android:icon="@android:drawable/ic_menu_revert"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
         android:orderInCategory="10"
-        app:showAsAction="ifRoom"
-        />
+        android:title="cancel"
+        app:showAsAction="ifRoom" />
 
 
 </menu>

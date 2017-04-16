@@ -18,7 +18,7 @@ import java.util.Comparator;
 
 public class NotesActivity extends AppCompatActivity {
 
-//    private Session session;
+    private Session session;
     private ListView mListNotes;
 
     @Override
@@ -28,10 +28,6 @@ public class NotesActivity extends AppCompatActivity {
 
         mListNotes = (ListView) findViewById(R.id.main_listview);
 
-//        session = new Session(this);
-//        if(!session.loggedin()){
-//            logout();
-//        }
 
     }
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -47,17 +43,20 @@ public class NotesActivity extends AppCompatActivity {
                 break;
 
             case R.id.action_settings:
+                session = new Session(this);
+                logout();
+                Toast.makeText(getApplicationContext(), "You've been logged out successfully! :)", Toast.LENGTH_SHORT).show();
                 break;
         }
 
         return super.onOptionsItemSelected(item);
     }
-//    private void logout() {
-//        session.setLoggedin(false);
-//        finish();
-//        startActivity(new Intent(this,LoginActivity.class));
-//        Log.d("Notes Activity", "Logout");
-//    }
+    private void logout() {
+        session.setLoggedin(false);
+        finish();
+        startActivity(new Intent(this,LoginActivity.class));
+        Log.d("Notes Activity", "Logout");
+    }
 
     @Override
     protected void onResume() {
@@ -74,7 +73,8 @@ public class NotesActivity extends AppCompatActivity {
             public int compare(Note lhs, Note rhs) {
                 if(lhs.getDateTime() > rhs.getDateTime()) {
                     return -1;
-                } else {
+                }
+                else {
                     return 1;
                 }
             }

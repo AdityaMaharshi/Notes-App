@@ -3,4 +3,6 @@
     <string name="logoutNotes">Logout</string>
     <string name="Register">Register</string>
     <string name="login">Login</string>
+    <string name="save_note">save note</string>
+    <string name="logout">Logout</string>
 </resources>
