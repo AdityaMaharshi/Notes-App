@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/NotesProject/app/build/intermediates/res/merged/debug/menu/menu_note_view.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/res/menu/menu_note_view.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/NotesProject/app/build/intermediates/res/merged/debug/menu/menu_note_add.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/res/menu/menu_note_add.xml"
+    },
+    {
+        "merged": "/Users/aditya/AndroidStudioProjects/NotesProject/app/build/intermediates/res/merged/debug/menu/menu_main_activity.xml",
+        "source": "/Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/res/menu/menu_main_activity.xml"
+    }
+]

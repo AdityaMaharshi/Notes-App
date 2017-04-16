@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/aditya/.android/build-cache/3f6438a1de06de5485d0accb1f400f8c106d43c4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/aditya/.android/build-cache/06fa2b80a91b7350cc887ac7239ed6783dc85ba3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/aditya/.android/build-cache/b1630c4ec88303c5d5c638d9df776fabfb736fd4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/aditya/.android/build-cache/5b5e23f11e5b085e355a91dfdc9f337754bfbc5c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/aditya/.android/build-cache/16d43ba4d966b70f9848992a8d56279a8b2233d8/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/aditya/.android/build-cache/b2708a1befe42726cca931174d0c73b47d92f78c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/aditya/.android/build-cache/06312ca1bb3e12301865cbe8f7c100d6f99676bb/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/aditya/.android/build-cache/80bdce634f517a6a397b0192aed10cdcb8834914/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/aditya/.android/build-cache/ed3ec77904a7fb7a208e0869069d562b08ff9be6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/aditya/.android/build-cache/4938456414f6eebb0bdd8d9aa96786d08505c2b7/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.aditya.notesproject.LoginActivity
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:12:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.aditya.notesproject.RegisterActivity
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:19:9-54
+	android:name
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:19:19-51
+activity#com.example.aditya.notesproject.MainActivity
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:20:9-50
+	android:name
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:20:19-47
+activity#com.example.aditya.notesproject.NotesActivity
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:21:9-60
+	android:name
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:21:19-48
+activity#com.example.aditya.notesproject.NoteTaker
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:22:9-56
+	android:name
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:22:19-44
+activity#com.example.aditya.notesproject.NoteAdapter
+ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:23:9-58
+	android:name
+		ADDED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml:23:19-46
+uses-sdk
+INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/aditya/.android/build-cache/3f6438a1de06de5485d0accb1f400f8c106d43c4/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/aditya/.android/build-cache/06fa2b80a91b7350cc887ac7239ed6783dc85ba3/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/aditya/.android/build-cache/b1630c4ec88303c5d5c638d9df776fabfb736fd4/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/aditya/.android/build-cache/5b5e23f11e5b085e355a91dfdc9f337754bfbc5c/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/aditya/.android/build-cache/16d43ba4d966b70f9848992a8d56279a8b2233d8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/aditya/.android/build-cache/b2708a1befe42726cca931174d0c73b47d92f78c/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/aditya/.android/build-cache/06312ca1bb3e12301865cbe8f7c100d6f99676bb/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/aditya/.android/build-cache/80bdce634f517a6a397b0192aed10cdcb8834914/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/aditya/.android/build-cache/ed3ec77904a7fb7a208e0869069d562b08ff9be6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/aditya/.android/build-cache/4938456414f6eebb0bdd8d9aa96786d08505c2b7/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/aditya/.android/build-cache/3f6438a1de06de5485d0accb1f400f8c106d43c4/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aditya/AndroidStudioProjects/NotesProject/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/aditya/.android/build-cache/3f6438a1de06de5485d0accb1f400f8c106d43c4/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/aditya/.android/build-cache/06fa2b80a91b7350cc887ac7239ed6783dc85ba3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/aditya/.android/build-cache/b1630c4ec88303c5d5c638d9df776fabfb736fd4/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/aditya/.android/build-cache/5b5e23f11e5b085e355a91dfdc9f337754bfbc5c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/aditya/.android/build-cache/16d43ba4d966b70f9848992a8d56279a8b2233d8/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/aditya/.android/build-cache/b2708a1befe42726cca931174d0c73b47d92f78c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/aditya/.android/build-cache/06312ca1bb3e12301865cbe8f7c100d6f99676bb/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/aditya/.android/build-cache/80bdce634f517a6a397b0192aed10cdcb8834914/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/aditya/.android/build-cache/ed3ec77904a7fb7a208e0869069d562b08ff9be6/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/aditya/.android/build-cache/3f6438a1de06de5485d0accb1f400f8c106d43c4/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/aditya/.android/build-cache/3f6438a1de06de5485d0accb1f400f8c106d43c4/output/AndroidManifest.xml:26:9-47
