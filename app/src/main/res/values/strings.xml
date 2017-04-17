@@ -5,4 +5,5 @@
     <string name="login">Login</string>
     <string name="save_note">save note</string>
     <string name="logout">Logout</string>
+    <string name="NewNote">Create Note</string>
 </resources>

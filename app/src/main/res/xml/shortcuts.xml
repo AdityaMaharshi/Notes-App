@@ -1,0 +1,19 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="newnote"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/NewNote"
+        android:shortcutLongLabel="@string/NewNote">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.aditya.notesproject"
+            android:targetClass="com.example.aditya.notesproject.NoteTaker" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.newnote" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
+
